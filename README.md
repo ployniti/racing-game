@@ -15,10 +15,10 @@ From the base vehicle class, I derived three different vehicle types: supercar, 
 And, thus, unique member functions to work with those data members such as honking the horn on a touring car or setting the turbo mode for a supercar.
 
 In the base vehicle class is where I have most of the operators I wanted to overload since that is where the data members I want to perform the operations on are. 
-The operators I overloaded were for operations such as to compare the current speed of the vehicle using the + or += operators, 
-to compare the current speed of the racing vehicles using the <, <=, >, and >= operators, 
-to display the vehicle’s status using the << operator, to set the name of the vehicle using the >> operator, 
-and to check if two vehicles are of the same caliber and thus could be used to race against each other using the == and != to compare their max speed.
+The operators I overloaded were for operations such as to compare the current speed of the vehicle using the `+` or `+=` operators, 
+to compare the current speed of the racing vehicles using the `<`, `<=`, `>`, and `>=` operators, 
+to display the vehicle’s status using the `<<` operator, to set the name of the vehicle using the `>>` operator, 
+and to check if two vehicles are of the same caliber and thus could be used to race against each other using the `==` and `!=` to compare their max speed.
 
 # Compile Instructions
 Run `g++ *.cpp` in terminal.
