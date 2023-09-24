@@ -21,7 +21,7 @@ to display the vehicle’s status using the << operator, to set the name of the 
 and to check if two vehicles are of the same caliber and thus could be used to race against each other using the == and != to compare their max speed.
 
 # Compile Instructions
-Run `gcc *.cpp -o` in terminal.
+Run `g++ *.cpp` in terminal.
 
 # Run Instructions
 Run `./a.out` in terminal.
